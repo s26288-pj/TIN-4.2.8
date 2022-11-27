@@ -1,0 +1,17 @@
+p::selection {
+  color:green;
+}
+
+form {
+    width:300px;
+    height:100px;
+    padding:10px;
+}
+
+form:focus-within {
+    background-color: green;
+}
+
+label::selection {
+    color:green;
+}
